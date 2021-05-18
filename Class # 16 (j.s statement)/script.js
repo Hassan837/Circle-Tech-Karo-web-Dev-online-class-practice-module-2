@@ -6,7 +6,7 @@ function login() {
     let inputValue = inputElement.value;
     console.log (inputValue);
 
-    let headingValue = document.querySelector('h1');
+    let headingValue = document.querySelector('h1 > span');
     console.log (headingValue);
 
     headingValue.innerHTML = inputValue;
