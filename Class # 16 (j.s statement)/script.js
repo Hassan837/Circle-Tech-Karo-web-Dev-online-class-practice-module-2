@@ -1,15 +1,15 @@
 function login() {
     
-    let inputElement = document.querySelector('input');
+    let inputElement = document.querySelector("#FN");
     console.log(inputElement);
 
-    let inputValue = inputElement.value;
+   /* let inputValue = inputElement.value;
     console.log (inputValue);
 
-    let headingValue = document.querySelector('h1 > span');
+    let headingValue = document.querySelector('h1 span');
     console.log (headingValue);
 
     headingValue.innerHTML = inputValue;
-
+*/
     
 }
