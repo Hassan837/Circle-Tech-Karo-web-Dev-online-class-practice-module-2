@@ -3,7 +3,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: rgb(236, 173, 90);
     flex-direction: column;
 }
 
@@ -31,7 +31,7 @@ button:focus {
 }
 
 button:hover {
-    background-color: #222;
+    background-color: rgb(177, 24, 24);
     color: #8bc34a;
 }
 
