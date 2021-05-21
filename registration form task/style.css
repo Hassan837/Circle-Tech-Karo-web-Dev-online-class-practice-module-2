@@ -1,3 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.center-box{
+min-width: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+min-height: 200px; 
+}
+
+@media (max-width: 500px){
+    .center-box{
+        min-width: 90%;
+    }
+}
+
+    
+
+/*.parent_div{
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_div{
+    width: 60vw;
+    height: 60vh;
+    background-color: turquoise;
+}*/
+
+
 .inp1{
     color: #495057;
     border: 1px solid #ced4da;
@@ -6,3 +44,12 @@
 .heig{
     height: 38px;
 }
+
+.widd{
+    width: 30vw;
+}
+
+.colo{
+color: white;
+}
+

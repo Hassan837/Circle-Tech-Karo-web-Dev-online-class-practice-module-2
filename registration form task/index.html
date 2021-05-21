@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    
+    <title> Registration Form </title>
 </head>
-<body>
-    <div>
+<body >
+  <div class="container">
+    <div  style="border: 1px solid black;">
+  <form class="text-center">
+  <div>
         <h1>Registration Form</h1>
     </div>
-    
+    <!--  enter first input-->
       <div class="input-group flex-nowrap">
         <div class="col-auto">
           <label for="inputPassword6" class="col-form-label"> First Name</label>
@@ -21,13 +26,102 @@
         <span class="input-group-text heig" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
           </svg></span>
-        <input type="text" style="width: 50%;" class="inp1" placeholder="  First Name" aria-label="Username" aria-describedby="addon-wrapping" style="width: 50%;">
-      </div>
-
-
-      <div>
-      
+        <input type="text"  class="inp1 widd" placeholder="  First Name" aria-label="Username" aria-describedby="addon-wrapping" >
       </div>
       
+      <!--  enter second input-->
+      <div class="input-group flex-nowrap">
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label"> Last Name</label>
+        </div>
+        <span class="input-group-text heig" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg></span>
+        <input type="text"  class="inp1 widd" placeholder="  Last Name" aria-label="Username" aria-describedby="addon-wrapping" >
+      </div>
+
+      <!--  enter 3rd input-->
+      <div class="input-group flex-nowrap">
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label"> Department / office </label>
+        </div>
+        <span class="input-group-text heig" id="addon-wrapping">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+          </svg>
+        </span>
+          <select id="disabledSelect" class="form-select widd" >
+            <option>Select Your Department / office</option>
+          </select>
+      </div>
+
+<!--  enter 4th input-->
+<div class="input-group flex-nowrap">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"> Username </label>
+  </div>
+  <span class="input-group-text heig" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    </svg></span>
+  <input type="text"  class="inp1 widd" placeholder="  Username" aria-label="Username" aria-describedby="addon-wrapping" >
+</div>
+
+<!--  enter 5th input-->
+<div class="input-group flex-nowrap">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"> Password</label>
+  </div>
+  <span class="input-group-text heig" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    </svg></span>
+  <input type="password"  class="inp1 widd" placeholder="  Password" aria-label="Username" aria-describedby="addon-wrapping"  >
+</div>
+
+<!--  enter 6th input-->
+<div class="input-group flex-nowrap">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"> Confirm Password</label>
+  </div>
+  <span class="input-group-text heig" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    </svg></span>
+  <input type="password"  class="inp1 widd" placeholder="  Confirm Password" aria-label="Username" aria-describedby="addon-wrapping" >
+</div>
+
+<!--  enter 7th input-->
+<div class="input-group flex-nowrap">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"> Email</label>
+  </div>
+  <span class="input-group-text heig" id="addon-wrapping">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+      <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+    </svg>
+    
+  </span>
+  <input type="email"  class="inp1 widd" placeholder="  E-mail Address" aria-label="Username" aria-describedby="addon-wrapping" >
+</div>
+
+<!--  enter 8th input-->
+<div class="input-group flex-nowrap">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label"> Contact No.</label>
+  </div>
+  <span class="input-group-text heig" id="addon-wrapping">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+    </svg>
+  </span>
+  <input type="email"  class="inp1 widd" placeholder="  (+92)" aria-label="Username" aria-describedby="addon-wrapping" >
+</div>
+
+<div>
+  <button type="button" class="btn btn-warning colo" > Submit <i class="fas fa-paper-plane"></i> </button>
+</div>
+</form>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/07b20b6443.js" crossorigin="anonymous"></script>
 </body>
 </html>
