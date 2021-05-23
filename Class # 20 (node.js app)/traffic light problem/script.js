@@ -1,23 +1,37 @@
-/*
-        function printVariable(name){
-            let name1 = name;
-            console.log(name1);
-        }*/
 
+        function First(color){
+            let color1 = color;
+            
 
-        function printVariable(){
-        
-        let a = 'hassan';
+            if(color == 'red'){
+                alert('This color is Red');
+            }        
 
-        if(a == 'abc'){
-            alert('hassan not equal to abc');
+            else if (color == 'green'){
+                alert('This color is Green');
+            }        
+
+            else if(color == 'yello'){
+                alert('This color is Yellow');
+            }        
+
         }
 
-        else
-        {alert('Name is not match');
-    }
+
+        function First1(color){
+            let color1 = prompt('Enter your Color');
+            
+
+            if (color1 == 'red'){
+                   alert('This color is Red');
+            }
+
+            else if (color1 == 'green'){
+                alert('This color is Green');
+            }        
+
+            else if (color1 == 'yello'){
+                alert('This color is Yellow');
+            }        
+
         }
-
-
-        
-        
