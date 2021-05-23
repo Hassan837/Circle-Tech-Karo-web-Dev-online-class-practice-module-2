@@ -1,4 +1,4 @@
-
+// practice of alert
         function First(color){
             let color1 = color;
             
@@ -17,7 +17,7 @@
 
         }
 
-
+//practice of prompt
         function First1(color){
             let color1 = prompt('Enter your Color');
             
@@ -30,7 +30,7 @@
                 alert('This color is Green');
             }        
 
-            else if (color1 == 'yello'){
+            else if (color1 == 'yellow'){
                 alert('This color is Yellow');
             }        
 
