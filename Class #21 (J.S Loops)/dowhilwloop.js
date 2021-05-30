@@ -1,5 +1,5 @@
 /*
- While  loop
+ doWhile  loop
 */
 
 function show2(){
@@ -15,3 +15,4 @@ function show2(){
         
     }
    
+    show2();
