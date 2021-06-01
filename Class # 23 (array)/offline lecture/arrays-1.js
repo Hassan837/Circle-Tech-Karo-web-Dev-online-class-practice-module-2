@@ -6,4 +6,12 @@ for (let i =0; i<students.length; i++ ){
 
 }
 
+// array method pop deleting value from last
+let studentNames = ["hassan", "aslam", "bilal", "adnan" , "hameed" , "ammad" , "nazar"]
+studentNames.pop();
+console.log(studentNames);
 
+
+// array method push adding value from last
+studentNames.push ("sohail")
+console.log( studentNames);
