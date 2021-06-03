@@ -15,3 +15,10 @@ console.log(studentNames);
 // array method push adding value from last
 studentNames.push ("sohail")
 console.log( studentNames);
+
+// array method splice value from last
+
+let studentNames2 = ["hassan", "aslam", "bilal", "adnan" , "hameed" , "ammad" , "nazar"]
+studentNames2.splice(2,0,"hidayat")
+console.log(studentNames2);
+
