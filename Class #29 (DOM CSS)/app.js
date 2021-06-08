@@ -43,3 +43,11 @@ function add() {
     let element5 = document.querySelector('.head2').classList;
     console.log(element5);
 }
+
+
+function myFunction2() {
+    alert ("Hello World!");
+}
+document.getElementsByClassName("header")[0].addEventListener("click", function myFunction2(){
+    alert ("Hello World!");
+});
