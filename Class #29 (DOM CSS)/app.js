@@ -35,4 +35,11 @@ function showStyle1() {
     console.log(element2);
     console.log(element3);
     console.log(element4);
+
+}
+
+
+function add() {
+    let element5 = document.querySelector('.head2').classList;
+    console.log(element5);
 }
